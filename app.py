@@ -31,7 +31,7 @@ st.title("🛡️ Deteksi Hoaks Berbahasa Indonesia")
 st.write("Bandingkan hasil klasifikasi teks dari dua model NLP: **XLM-RoBERTa** dan **IndoBERT**.")
 
 text_input = st.text_area("📄 Masukkan teks berita atau opini:",
-    "Vaksin COVID-19 mengandung chip untuk melacak masyarakat.")
+    "Vaksinasi menyebabkan kemandulan dan perubahan DNA manusia.")
 
 if not text_input.strip():
     st.warning("⚠️ Harap masukkan teks terlebih dahulu.")
